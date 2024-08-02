@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
+margin: 0 auto;
+width: 148px;
+height: 26.99px;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    margin-left: 30px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: normal;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.buttons .login {
+    background: none;
+    border: none;
+    color: #333;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.buttons .register {
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #8b0000; /* Ajuste a cor conforme necessário */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.buttons .register:hover {
+    background-color: #a50000; /* Efeito hover para o botão de cadastro */
+}
